@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Password Guesser</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+	  <code>
+		<h1 class="Header">4-Digit Password Guesser</h1>
+		<form id="RunForm" class="RunForm">
+			<label for="pin">4-Digit Pin:</label>
+  			<input type="text" id="pin" name="pin" required size="5" maxlength="4"><br><br>
+			<input type="submit" value="Run">
+		</form>
+		<p id="status"></p>
+		<table class="CurGuess">
+			<tr>
+				<td id="thousands">0</td>
+				<td id="hundreds">0</td>
+				<td id="tens">0</td>
+				<td id="ones">0</td>
+			</tr>
+		</table>
+	  </code>
+	  <script src="script.js"></script>
+  </body>
+</html>

@@ -1,0 +1,38 @@
+.Header {
+	text-align: center;
+}
+.RunForm {
+	text-align: center;
+	margin-top: 5%;
+}
+input[type=number]{
+    width: 40px;
+} 
+.CurGuess {
+	margin-top: 4%;
+	margin-left: auto;
+ 	margin-right: auto;
+	font-size: xx-large;
+}
+#thousands {
+	border: 2px solid black;
+}
+#hundreds {
+	border: 2px solid black;
+}
+#tens {
+	border: 2px solid black;
+}
+#ones {
+	border: 2px solid black;
+}
+.facts {
+	margin-left: auto;
+ 	margin-right: auto;
+	margin-top: 2%;
+}
+#status {
+	margin-top: 2%;
+  	font-size: x-large;
+  	text-align: center
+}
